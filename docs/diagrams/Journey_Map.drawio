@@ -1,0 +1,34 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.15 Chrome/134.0.6998.205 Electron/35.2.1 Safari/537.36" version="26.2.15">
+  <diagram name="Types of Users" id="RTWdrSkYbZQtFD3etr7h">
+    <mxGraphModel dx="1282" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IwL15orD5SVjx9l3i7Oz-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;editableCssRules=.*;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjQgMiAxNiAyMCIgaGVpZ2h0PSI2NjYuNjY2NjY2NjY2NjY2NyIgd2lkdGg9IjUzMy4zMzMzMzMzMzMzMzM0Ij4mI3hhOzxwYXRoIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2U9IiMwMDAwMDAiIGQ9Ik01IDIxQzUgMTcuMTM0IDguMTM0MDEgMTQgMTIgMTRDMTUuODY2IDE0IDE5IDE3LjEzNCAxOSAyMU0xNiA3QzE2IDkuMjA5MTQgMTQuMjA5MSAxMSAxMiAxMUM5Ljc5MDg2IDExIDggOS4yMDkxNCA4IDdDOCA0Ljc5MDg2IDkuNzkwODYgMyAxMiAzQzE0LjIwOTEgMyAxNiA0Ljc5MDg2IDE2IDdaIi8+JiN4YTs8L3N2Zz4=;container=0;fontSize=20;fontFamily=Arial;strokeWidth=2;strokeColor=#000000;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="63.93" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IwL15orD5SVjx9l3i7Oz-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Informatics Student&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="160" width="440" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IwL15orD5SVjx9l3i7Oz-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;editableCssRules=.*;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjQgMiAxNiAyMCIgaGVpZ2h0PSI2NjYuNjY2NjY2NjY2NjY2NyIgd2lkdGg9IjUzMy4zMzMzMzMzMzMzMzM0Ij4mI3hhOzxwYXRoIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2U9IiMwMDAwMDAiIGQ9Ik01IDIxQzUgMTcuMTM0IDguMTM0MDEgMTQgMTIgMTRDMTUuODY2IDE0IDE5IDE3LjEzNCAxOSAyMU0xNiA3QzE2IDkuMjA5MTQgMTQuMjA5MSAxMSAxMiAxMUM5Ljc5MDg2IDExIDggOS4yMDkxNCA4IDdDOCA0Ljc5MDg2IDkuNzkwODYgMyAxMiAzQzE0LjIwOTEgMyAxNiA0Ljc5MDg2IDE2IDdaIi8+JiN4YTs8L3N2Zz4=;container=0;fontSize=20;fontFamily=Arial;strokeWidth=2;strokeColor=#000000;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="63.93" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IwL15orD5SVjx9l3i7Oz-4" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Medical Student&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280" width="440" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IwL15orD5SVjx9l3i7Oz-13" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;editableCssRules=.*;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjQgMiAxNiAyMCIgaGVpZ2h0PSI2NjYuNjY2NjY2NjY2NjY2NyIgd2lkdGg9IjUzMy4zMzMzMzMzMzMzMzM0Ij4mI3hhOzxwYXRoIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2U9IiMwMDAwMDAiIGQ9Ik01IDIxQzUgMTcuMTM0IDguMTM0MDEgMTQgMTIgMTRDMTUuODY2IDE0IDE5IDE3LjEzNCAxOSAyMU0xNiA3QzE2IDkuMjA5MTQgMTQuMjA5MSAxMSAxMiAxMUM5Ljc5MDg2IDExIDggOS4yMDkxNCA4IDdDOCA0Ljc5MDg2IDkuNzkwODYgMyAxMiAzQzE0LjIwOTEgMyAxNiA0Ljc5MDg2IDE2IDdaIi8+JiN4YTs8L3N2Zz4=;container=0;fontSize=20;fontFamily=Arial;strokeWidth=2;strokeColor=#000000;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="63.93" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IwL15orD5SVjx9l3i7Oz-14" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Instructor&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="440" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IwL15orD5SVjx9l3i7Oz-15" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;editableCssRules=.*;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjQgMiAxNiAyMCIgaGVpZ2h0PSI2NjYuNjY2NjY2NjY2NjY2NyIgd2lkdGg9IjUzMy4zMzMzMzMzMzMzMzM0Ij4mI3hhOzxwYXRoIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2U9IiMwMDAwMDAiIGQ9Ik01IDIxQzUgMTcuMTM0IDguMTM0MDEgMTQgMTIgMTRDMTUuODY2IDE0IDE5IDE3LjEzNCAxOSAyMU0xNiA3QzE2IDkuMjA5MTQgMTQuMjA5MSAxMSAxMiAxMUM5Ljc5MDg2IDExIDggOS4yMDkxNCA4IDdDOCA0Ljc5MDg2IDkuNzkwODYgMyAxMiAzQzE0LjIwOTEgMyAxNiA0Ljc5MDg2IDE2IDdaIi8+JiN4YTs8L3N2Zz4=;container=0;fontSize=20;fontFamily=Arial;strokeWidth=2;strokeColor=#000000;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="63.93" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IwL15orD5SVjx9l3i7Oz-16" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Contributing Open Source Developers&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="400" width="440" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
