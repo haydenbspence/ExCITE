@@ -5,7 +5,6 @@ Educators Clinical Informatics Training Environment
 
 Deploy the **IUPUI‑SOIC OpenEMR** container to an Azure virtual machine, reverse‑proxied by **Apache 2**, secured with HTTPS (Let’s Encrypt), and ready for FHIR.
 
-> **Tested:** June 2025 on Ubuntu 24.04 LTS  
 > **Container:** `ghcr.io/iupui-soic/seiri22:latest`
 
 ---
