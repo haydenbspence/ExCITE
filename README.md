@@ -11,7 +11,7 @@ Deploy the **IUPUI‑SOIC OpenEMR** container to an Azure virtual machine, rever
 
 ## Table of Contents
 1. [Prerequisites](#prerequisites)  
-2. [Architecture](#architecture)  
+2. [Additional Setup Support](#additional-setup-support)  
 3. [Provision VM](#provision-vm)  
 4. [Install Docker](#install-docker)  
 5. [Create Service Account](#create-service-account)  
@@ -39,17 +39,11 @@ Deploy the **IUPUI‑SOIC OpenEMR** container to an Azure virtual machine, rever
 | **OpenEMR Translated Data** | MIMIC-IV must be formatted for OpenEMR through https://github.com/iupui-soic/mimic-openemr-etl/tree/main |
 ---
 
-## Architecture
+## Additional Setup Support
 
-\`\`\`
-Client ── HTTPS ──► Apache 2 (:80/:443)
-                          │
-                          ▼
-                Docker network (bridge)
-         ┌──────────────┐            ┌────────────────┐
-         │  OpenEMR      │◄─────►    │   MariaDB 10.11 │
-         └──────────────┘            └────────────────┘
-\`\`\`
+Additional setup support, as well as the source container for OpenEMR used in this deployment, is available through the Indiana University github repository: https://github.com/iupui-soic/openemr/tree/seiri22
+
+Please see their INSTALL.MD for further documentation and setup instructions. https://github.com/iupui-soic/openemr/blob/seiri22/INSTALL.MD
 
 ---
 
