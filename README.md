@@ -65,15 +65,14 @@ Client ── HTTPS ──► Apache 2 (:80/:443)
 
 SSH:
 
-\`\`\`bash
+```bash
 ssh -i /path/to/key.pem azureuser@<PUBLIC_IP>
-\`\`\`
-
+```
 ---
 
 ## Install Docker
 
-\`\`\`bash
+```bash
 sudo apt update && sudo apt upgrade -y
 sudo apt install -y ca-certificates curl gnupg lsb-release
 
@@ -88,20 +87,18 @@ echo \
 sudo apt update
 sudo apt install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
 sudo systemctl enable --now docker containerd
-\`\`\`
-
+```
 ---
 
 ## Create Service Account
 
-\`\`\`bash
+```bash
 sudo adduser --disabled-password --gecos "" oemr
 sudo usermod -aG docker oemr
 
 # test
 sudo -u oemr docker run --rm hello-world
-\`\`\`
-
+```
 ---
 
 ## Prepare Volumes
@@ -109,19 +106,18 @@ sudo -u oemr docker run --rm hello-world
 *The following are retrieved from pre-created MIMIC-IV formatted volumes*
 
 
-\`\`\`bash
+```bash
 sudo -u oemr docker volume create oemr_databasevolume
 sudo -u oemr docker volume create oemr_sitevolume
 sudo -u oemr docker volume create oemr_logvolume01
-\`\`\`
-
+```
 ---
 
 ## Deploy with Compose
 
 Modify \`/home/oemr/docker-compose.yml\`:
 
-\`\`\`yaml
+```yaml
 version: "3.1"
 
 services:
@@ -161,27 +157,27 @@ volumes:
     external: true
   oemr_logvolume01:
     external: true
-\`\`\`
+```
 
 Start:
 
-\`\`\`bash
+```bash
 cd /home/oemr
 sudo -u oemr docker compose up -d
-\`\`\`
+```
 
 ---
 
 ## Configure Apache 2
 
-\`\`\`bash
+```bash
 sudo apt install -y apache2 libapache2-mod-proxy-html libxml2-dev
 sudo a2enmod proxy proxy_http headers rewrite ssl
-\`\`\`
+```
 
 Create \`/etc/apache2/sites-available/openemr.conf\`:
 
-\`\`\`apache
+```apache
 <VirtualHost *:80>
     ServerName openemr.example.com
 
@@ -192,24 +188,24 @@ Create \`/etc/apache2/sites-available/openemr.conf\`:
     ErrorLog  ${APACHE_LOG_DIR}/openemr_error.log
     CustomLog ${APACHE_LOG_DIR}/openemr_access.log combined
 </VirtualHost>
-\`\`\`
+```
 
-\`\`\`bash
+```bash
 sudo a2dissite 000-default.conf
 sudo a2ensite openemr.conf
 sudo systemctl reload apache2
-\`\`\`
+```
 
 ---
 
 ## Add HTTPS
 
-\`\`\`bash
+```bash
 sudo apt install -y certbot python3-certbot-apache
 sudo certbot --apache -d openemr.example.com \
   --redirect --agree-tos -m you@example.com
 sudo certbot renew --dry-run
-\`\`\`
+```
 
 ---
 
@@ -226,9 +222,9 @@ Docs:
 <https://github.com/iupui-soic/openemr/blob/master/API_README.md#authorization>  
 <https://github.com/iupui-soic/openemr/blob/master/FHIR_README.md>
 
-\`\`\`bash
+```bash
 curl https://openemr.example.com/apis/fhir/metadata
-\`\`\`
+```
 
 ---
 
