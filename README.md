@@ -1,7 +1,7 @@
 # ExCITE
 Educators Clinical Informatics Training Environment
 
-## The goal of ExCITE is to create a community and platform for clinical informatics educators with open source, open data, and open standards.
+The goal of ExCITE is to create a community and platform for clinical informatics educators with open source, open data, and open standards.
 
 
 # OpenEMR on Azure VM (Ubuntu 24.04 LTS) with Docker Compose
