@@ -1,0 +1,105 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.15 Chrome/134.0.6998.205 Electron/35.2.1 Safari/537.36" version="26.2.15">
+  <diagram name="Auth_Flow" id="ephqr9WTFg5qxSn8dHBY">
+    <mxGraphModel dx="1270" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Yrb1lhH9Zg9FAsN81M2u-1" value="Keycloak" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Atkinson Hyperlegible Next;fontSize=12;fontColor=default;labelBackgroundColor=default;resizable=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="594" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Yrb1lhH9Zg9FAsN81M2u-2" value="App" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Atkinson Hyperlegible Next;fontSize=12;fontColor=default;labelBackgroundColor=default;resizable=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="354" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Yrb1lhH9Zg9FAsN81M2u-3" value="User" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Atkinson Hyperlegible Next;fontSize=12;fontColor=default;labelBackgroundColor=default;resizable=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="114" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Yrb1lhH9Zg9FAsN81M2u-4" value="" style="endArrow=none;dashed=1;html=1;rounded=1;shadow=0;strokeColor=default;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Atkinson Hyperlegible Next;fontSize=12;fontColor=default;labelBackgroundColor=default;resizable=1;edgeStyle=none;jumpStyle=none;jumpSize=6;startSize=6;endSize=6;flowAnimation=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="Yrb1lhH9Zg9FAsN81M2u-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="174" y="400" as="sourcePoint" />
+            <mxPoint x="534" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yrb1lhH9Zg9FAsN81M2u-5" value="" style="endArrow=none;dashed=1;html=1;rounded=1;shadow=0;strokeColor=default;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Atkinson Hyperlegible Next;fontSize=12;fontColor=default;labelBackgroundColor=default;resizable=1;edgeStyle=none;jumpStyle=none;jumpSize=6;startSize=6;endSize=6;flowAnimation=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="Yrb1lhH9Zg9FAsN81M2u-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="400" as="sourcePoint" />
+            <mxPoint x="424" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yrb1lhH9Zg9FAsN81M2u-6" value="" style="endArrow=none;dashed=1;html=1;rounded=1;shadow=0;strokeColor=default;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Atkinson Hyperlegible Next;fontSize=12;fontColor=default;labelBackgroundColor=default;resizable=1;edgeStyle=none;jumpStyle=none;jumpSize=6;startSize=6;endSize=6;flowAnimation=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="Yrb1lhH9Zg9FAsN81M2u-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="654" y="400" as="sourcePoint" />
+            <mxPoint x="654" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yrb1lhH9Zg9FAsN81M2u-7" value="" style="endArrow=block;html=1;rounded=1;shadow=0;strokeColor=default;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Atkinson Hyperlegible Next;fontSize=12;fontColor=default;labelBackgroundColor=default;resizable=1;edgeStyle=none;jumpStyle=none;jumpSize=6;startSize=6;endSize=6;flowAnimation=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="174" y="140" as="sourcePoint" />
+            <mxPoint x="414" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yrb1lhH9Zg9FAsN81M2u-8" value="" style="endArrow=block;html=1;rounded=1;shadow=0;strokeColor=default;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Atkinson Hyperlegible Next;fontSize=12;fontColor=default;labelBackgroundColor=default;resizable=1;edgeStyle=none;jumpStyle=none;jumpSize=6;startSize=6;endSize=6;flowAnimation=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="160" as="sourcePoint" />
+            <mxPoint x="414" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="554" y="160" />
+              <mxPoint x="554" y="180" />
+              <mxPoint x="554" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yrb1lhH9Zg9FAsN81M2u-9" value="&lt;font&gt;&lt;b&gt;2.&lt;/b&gt; Generate authentication request&lt;/font&gt;" style="text;align=center;verticalAlign=middle;rounded=0;fontFamily=Atkinson Hyperlegible Next;fontSize=12;fontColor=default;labelBackgroundColor=none;resizable=1;spacing=2;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="444" y="180" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Yrb1lhH9Zg9FAsN81M2u-10" value="&lt;span&gt;&lt;b&gt;1. &lt;/b&gt;Login&lt;/span&gt;" style="text;align=center;verticalAlign=middle;rounded=0;fontFamily=Atkinson Hyperlegible Next;fontSize=12;fontColor=default;labelBackgroundColor=none;resizable=1;spacing=2;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="254" y="120" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Yrb1lhH9Zg9FAsN81M2u-11" value="" style="endArrow=block;html=1;rounded=1;shadow=0;strokeColor=default;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Atkinson Hyperlegible Next;fontSize=12;fontColor=default;labelBackgroundColor=default;resizable=1;edgeStyle=none;jumpStyle=none;jumpSize=6;startSize=6;endSize=6;flowAnimation=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="240" as="sourcePoint" />
+            <mxPoint x="174" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yrb1lhH9Zg9FAsN81M2u-12" value="" style="endArrow=block;html=1;rounded=1;shadow=0;strokeColor=default;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Atkinson Hyperlegible Next;fontSize=12;fontColor=default;labelBackgroundColor=default;resizable=1;edgeStyle=none;jumpStyle=arc;jumpSize=6;startSize=6;endSize=6;flowAnimation=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="174" y="290" as="sourcePoint" />
+            <mxPoint x="654" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yrb1lhH9Zg9FAsN81M2u-13" value="&lt;span&gt;&lt;b&gt;3. &lt;/b&gt;Redirect to Keycloak&lt;/span&gt;" style="text;align=center;verticalAlign=middle;rounded=0;fontFamily=Atkinson Hyperlegible Next;fontSize=12;fontColor=default;labelBackgroundColor=none;resizable=1;spacing=2;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="224" y="220" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Yrb1lhH9Zg9FAsN81M2u-14" value="&lt;span&gt;&lt;b&gt;4. &lt;/b&gt;Send authentication request to Keycloak&lt;/span&gt;" style="text;align=center;verticalAlign=middle;rounded=0;fontFamily=Atkinson Hyperlegible Next;fontSize=12;fontColor=default;labelBackgroundColor=none;resizable=1;spacing=2;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="172.25" y="270" width="243.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Yrb1lhH9Zg9FAsN81M2u-15" value="" style="endArrow=block;html=1;rounded=1;shadow=0;strokeColor=default;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Atkinson Hyperlegible Next;fontSize=12;fontColor=default;labelBackgroundColor=default;resizable=1;edgeStyle=none;jumpStyle=arc;jumpSize=6;startSize=6;endSize=6;flowAnimation=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="652" y="320" as="sourcePoint" />
+            <mxPoint x="176" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yrb1lhH9Zg9FAsN81M2u-16" value="&lt;span&gt;&lt;b&gt;5. &lt;/b&gt;Authenticate user&lt;/span&gt;" style="text;align=center;verticalAlign=middle;rounded=0;fontFamily=Atkinson Hyperlegible Next;fontSize=12;fontColor=default;labelBackgroundColor=none;resizable=1;spacing=2;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="474.5" y="300" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Yrb1lhH9Zg9FAsN81M2u-17" value="" style="endArrow=block;html=1;rounded=1;shadow=0;strokeColor=default;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Atkinson Hyperlegible Next;fontSize=12;fontColor=default;labelBackgroundColor=default;resizable=1;edgeStyle=none;jumpStyle=arc;jumpSize=6;startSize=6;endSize=6;flowAnimation=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="654" y="350" as="sourcePoint" />
+            <mxPoint x="414" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yrb1lhH9Zg9FAsN81M2u-18" value="" style="endArrow=block;html=1;rounded=1;shadow=0;strokeColor=default;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Atkinson Hyperlegible Next;fontSize=12;fontColor=default;labelBackgroundColor=default;resizable=1;edgeStyle=none;jumpStyle=arc;jumpSize=6;startSize=6;endSize=6;flowAnimation=0;endFill=1;startArrow=block;startFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="654" y="380" as="sourcePoint" />
+            <mxPoint x="414" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yrb1lhH9Zg9FAsN81M2u-19" value="&lt;span&gt;&lt;b&gt;7. &lt;/b&gt;Send token request to Keycloak&lt;/span&gt;" style="text;align=center;verticalAlign=middle;rounded=0;fontFamily=Atkinson Hyperlegible Next;fontSize=12;fontColor=default;labelBackgroundColor=none;resizable=1;spacing=2;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="360" width="189" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Yrb1lhH9Zg9FAsN81M2u-20" value="&lt;span&gt;&lt;b&gt;6. &lt;/b&gt;Return authorization code&lt;/span&gt;" style="text;align=center;verticalAlign=middle;rounded=0;fontFamily=Atkinson Hyperlegible Next;fontSize=12;fontColor=default;labelBackgroundColor=none;resizable=1;spacing=2;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="455" y="330" width="174" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
