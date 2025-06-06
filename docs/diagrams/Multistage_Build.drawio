@@ -1,0 +1,52 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.15 Chrome/134.0.6998.205 Electron/35.2.1 Safari/537.36" version="26.2.15">
+  <diagram name="Page-1" id="7S9Ry73Vzmjt0osUZw4L">
+    <mxGraphModel dx="1178" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WKhozFFPhozO3YTlX8OC-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Atkinson Hyperlegible Next;endArrow=block;endFill=1;" edge="1" parent="1" source="WKhozFFPhozO3YTlX8OC-1" target="WKhozFFPhozO3YTlX8OC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WKhozFFPhozO3YTlX8OC-1" value="Base" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Atkinson Hyperlegible Next;" vertex="1" parent="1">
+          <mxGeometry x="354" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WKhozFFPhozO3YTlX8OC-7" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Atkinson Hyperlegible Next;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=1;" edge="1" parent="1" source="WKhozFFPhozO3YTlX8OC-2" target="WKhozFFPhozO3YTlX8OC-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WKhozFFPhozO3YTlX8OC-2" value="Deps" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Atkinson Hyperlegible Next;" vertex="1" parent="1">
+          <mxGeometry x="354" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WKhozFFPhozO3YTlX8OC-24" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Atkinson Hyperlegible Next;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=1;" edge="1" parent="1" source="WKhozFFPhozO3YTlX8OC-3" target="WKhozFFPhozO3YTlX8OC-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WKhozFFPhozO3YTlX8OC-28" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Atkinson Hyperlegible Next;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=1;" edge="1" parent="1" source="WKhozFFPhozO3YTlX8OC-3" target="WKhozFFPhozO3YTlX8OC-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WKhozFFPhozO3YTlX8OC-3" value="Builder" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Atkinson Hyperlegible Next;" vertex="1" parent="1">
+          <mxGeometry x="354" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WKhozFFPhozO3YTlX8OC-27" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Atkinson Hyperlegible Next;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=1;" edge="1" parent="1" source="WKhozFFPhozO3YTlX8OC-6" target="WKhozFFPhozO3YTlX8OC-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WKhozFFPhozO3YTlX8OC-6" value="Test" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Atkinson Hyperlegible Next;" vertex="1" parent="1">
+          <mxGeometry x="520" y="260" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WKhozFFPhozO3YTlX8OC-29" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Atkinson Hyperlegible Next;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=1;" edge="1" parent="1" source="WKhozFFPhozO3YTlX8OC-11" target="WKhozFFPhozO3YTlX8OC-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WKhozFFPhozO3YTlX8OC-11" value="Runtime" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Atkinson Hyperlegible Next;" vertex="1" parent="1">
+          <mxGeometry x="354" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WKhozFFPhozO3YTlX8OC-26" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Atkinson Hyperlegible Next;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=1;" edge="1" parent="1" source="WKhozFFPhozO3YTlX8OC-13" target="WKhozFFPhozO3YTlX8OC-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WKhozFFPhozO3YTlX8OC-13" value="Release" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Atkinson Hyperlegible Next;" vertex="1" parent="1">
+          <mxGeometry x="354" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WKhozFFPhozO3YTlX8OC-15" value="Debug" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Atkinson Hyperlegible Next;" vertex="1" parent="1">
+          <mxGeometry x="520" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
