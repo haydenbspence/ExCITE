@@ -1,5 +1,5 @@
 
-ARG BUILDER_IMAGE=debian:bookworm-slim
+ARG BUILDER_IMAGE=ubuntu:24.04
 FROM --platform=$BUILDPLATFORM ${BUILDER_IMAGE} AS builder
 
 LABEL maintainer="NAME <EMAIL@EMAIL.com>"
@@ -48,8 +48,7 @@ COPY user_permissions.sh /usr/local/bin/user_permissions
 RUN chmod a+rx /usr/local/bin/user_permissions
 
 # Enable prompt color in the skeleton
-RUN sed -i 's/^#force_color_prompt=yes/force_color_prompt=yes/' /etc/skel/.bashrc && \
-    echo 'eval "$(conda shell.bash hook)"' >> /etc/skel/.bashrc
+RUN sed -i 's/^#force_color_prompt=yes/force_color_prompt=yes/' /etc/skel/.bashrc
 
 # Delete existing user with UID="${EXC_UID}" if it exists
 RUN if grep -q "${EXC_UID}" /etc/passwd; then \
@@ -60,7 +59,6 @@ RUN echo "auth requisite pam_deny.so" >> /etc/pam.d/su && \
     sed -i.bak -e 's/^%admin/#%admin/' /etc/sudoers && \
     sed -i.bak -e 's/^%sudo/#%sudo/' /etc/sudoers && \
     useradd --no-log-init --create-home --shell /bin/bash --uid "${EXC_UID}" --no-user-group "${EXC_USER}" && \
-    chmod g+w /etc/passwd && \
     user_permissions "/home/${EXC_USER}"
 
 USER ${EXC_USER}
