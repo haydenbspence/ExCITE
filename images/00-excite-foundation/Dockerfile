@@ -1,6 +1,6 @@
+ARG BUILD_IMAGE=ubuntu:24.04
+FROM --platform=$BUILDPLATFORM $BUILD_IMAGE AS build
 
-ARG BUILDER_IMAGE=ubuntu:24.04
-FROM --platform=$BUILDPLATFORM ${BUILDER_IMAGE} AS builder
 
 LABEL maintainer="NAME <EMAIL@EMAIL.com>"
 
@@ -12,18 +12,18 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 USER root
 
-# Base packages + locale setup
+# packages + locale setup
 ENV DEBIAN_FRONTEND=noninteractive
 RUN --mount=type=cache,target=/var/cache/apt \
-    apt-get update && \
-    apt-get install -y --no-install-recommends \
+    apt update && \
+    apt install -y --no-install-recommends \
         bzip2 \
         ca-certificates \
         locales \
         netbase \
         sudo \
         tini \
-        wget && \
+        curl && \
     rm -rf /var/lib/apt/lists/* && \
     echo "en_US.UTF-8 UTF-8" > /etc/locale.gen && \
     echo "C.UTF-8 UTF-8" >> /etc/locale.gen && \
@@ -59,12 +59,12 @@ RUN echo "auth requisite pam_deny.so" >> /etc/pam.d/su && \
     sed -i.bak -e 's/^%admin/#%admin/' /etc/sudoers && \
     sed -i.bak -e 's/^%sudo/#%sudo/' /etc/sudoers && \
     useradd --no-log-init --create-home --shell /bin/bash --uid "${EXC_UID}" --no-user-group "${EXC_USER}" && \
-    user_permissions "/home/${EXC_USER}"
+    user_permissions "${HOME}"
 
 USER ${EXC_USER}
 
-RUN mkdir "/home/${EXC_USER}/work" && \
-    user_permissions "/home/${EXC_USER}"
+RUN curl --proto '=https' --tlsv1.2 -LsSf https://github.com/astral-sh/uv/releases/download/0.7.14/uv-installer.sh | sh && \
+    user_permissions ${HOME}
 
 COPY run-hooks.sh start.sh /usr/local/bin/
 
@@ -77,9 +77,9 @@ COPY hooks/* /usr/local/bin/hooks/
 
 
 # Some architectures add junk cache, so we remove it
-RUN rm -rf "/home/${EXC_USER}/.cache/"
+RUN rm -rf "${HOME}}/.cache/"
 
 # Switch back to non-root user
 USER ${EXC_USER}
-WORKDIR /home/${EXC_USER}
+WORKDIR ${HOME}
 
